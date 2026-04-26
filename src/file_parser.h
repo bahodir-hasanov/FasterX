@@ -1,9 +1,21 @@
-#ifndef FILE_PARSER_H
-#define FILE_PARSER_H
+#pragma once
 
-#include "models.h"
 #include <QString>
 #include <vector>
+#include <string>
+
+struct Answer {
+    int id;
+    QString text;
+    bool isCorrect;
+};
+
+struct Question {
+    int id;
+    QString text;
+    std::vector<Answer> answers;
+    int orderIndex;
+};
 
 class TXTParser {
 public:
@@ -12,17 +24,11 @@ public:
         QString quizName;
         std::vector<Question> questions;
         std::vector<QString> errors;
-        int lineNumber;
-
-        ParseResult() : success(false), lineNumber(0) {}
     };
 
     static ParseResult parse(const QString& filename);
-    static std::string getFormatExample();
+    static ParseResult parse(const std::string& filename);
 
-private:
     static QString trim(const QString& s);
     static QString extractNameFromPath(const QString& path);
 };
-
-#endif // FILE_PARSER_H
