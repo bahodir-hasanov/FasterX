@@ -37,7 +37,7 @@ sudo apt install -y \
     libsqlite3-dev \
     make
 
-
+**fedora uchun:**
 sudo dnf install -y \
     gcc-c++ \
     cmake \
