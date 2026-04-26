@@ -1,0 +1,5 @@
+/home/aldentra/preyekt/FasterX/build/CMakeFiles/QuizMasterPro.dir
+/home/aldentra/preyekt/FasterX/build/CMakeFiles/edit_cache.dir
+/home/aldentra/preyekt/FasterX/build/CMakeFiles/rebuild_cache.dir
+/home/aldentra/preyekt/FasterX/build/CMakeFiles/QuizMasterPro_autogen_timestamp_deps.dir
+/home/aldentra/preyekt/FasterX/build/CMakeFiles/QuizMasterPro_autogen.dir

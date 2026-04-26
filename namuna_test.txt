@@ -1,0 +1,55 @@
+++++
+C++ da yangi xotira ajratish uchun qaysi operator ishlatiladi?
+====
+malloc()
+====
+#new
+====
+alloc()
+====
+create()
+++++
+++++
+C++ da virtual funksiya nima uchun ishlatiladi?
+====
+#Polimorfizmni amalga oshirish uchun
+====
+Funksiyani tezlashtirish uchun
+====
+Xotira tejash uchun
+====
+Kompilyatsiya vaqtida tekshirish uchun
+++++
+++++
+GTKMM qaysi tilning kutubxonasi?
+====
+Python
+====
+Java
+====
+#C++
+====
+Rust
+++++
+++++
+SQLite ma'lumotlar bazasi qanday ishlaydi?
+====
+Server orqali
+====
+Tarmoq orqali
+====
+#Fayl sifatida
+====
+Xotira ichida
+++++
+++++
+CMake nima uchun ishlatiladi?
+====
+Grafik interfeyslar yaratish
+====
+#Cross-platform build tizimi boshqarish
+====
+Ma'lumotlar bazasi bilan ishlash
+====
+Tarmoq dasturlash
+++++
