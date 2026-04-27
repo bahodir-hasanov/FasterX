@@ -1,0 +1,88 @@
+++++
+C++ da yangi xotira ajratish uchun qaysi kalit so'z ishlatiladi?
+====
+malloc
+====
+#new
+====
+alloc
+====
+create
+++++
+++++
+Python tilida ro'yxat (list) e'lon qilish qanday yoziladi?
+====
+#mylist = [1, 2, 3]
+====
+mylist = (1, 2, 3)
+====
+mylist = {1, 2, 3}
+====
+mylist := [1, 2, 3]
+++++
+++++
+Qaysi dasturlash tili "C with Classes" deb boshlangan?
+====
+Java
+====
+Python
+====
+#C++
+====
+Rust
+++++
+++++
+SQL da jadvaldan ma'lumot olish uchun qaysi buyruq ishlatiladi?
+====
+GET
+====
+FETCH
+====
+#SELECT
+====
+READ
+++++
+++++
+Linux da fayllarni ro'yxatini ko'rsatish buyrug'i qaysi?
+====
+dir
+====
+show
+====
+files
+====
+#ls
+++++
+++++
+HTTP da muvaffaqiyatli so'rovning kodi qanday?
+====
+404
+====
+500
+====
+#200
+====
+301
+++++
+++++
+Git da yangi branch yaratish buyrug'i qaysi?
+====
+git add branch
+====
+#git checkout -b
+====
+git new branch
+====
+git create branch
+++++
+++++
+Kompilyator va interpreter orasidagi asosiy farq nima?
+====
+Ular bir xil
+====
+Interpreter tezroq ishlaydi
+====
+#Kompilyator butun kodni, interpreter satr-satr tarjima qiladi
+====
+Kompilyator faqat Python uchun
+++++

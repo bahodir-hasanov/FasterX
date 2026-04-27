@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_QuizMasterPro_FILE /home/aldentra/preyekt/FasterX/build/QuizMasterPro)
-set(__QT_DEPLOY_TARGET_QuizMasterPro_TYPE EXECUTABLE)
