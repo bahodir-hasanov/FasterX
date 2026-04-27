@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/QuizMasterPro.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/QuizMasterPro.dir/objects.a @CMakeFiles/QuizMasterPro.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++ -Wl,--whole-archive CMakeFiles/QuizMasterPro.dir/objects.a -Wl,--no-whole-archive -o QuizMasterPro.exe -Wl,--out-implib,libQuizMasterPro.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/QuizMasterPro.dir/linkLibs.rsp

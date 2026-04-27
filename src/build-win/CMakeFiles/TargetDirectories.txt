@@ -1,0 +1,3 @@
+/home/aldentra/preyekt/FasterX/src/build-win/CMakeFiles/QuizMasterPro.dir
+/home/aldentra/preyekt/FasterX/src/build-win/CMakeFiles/edit_cache.dir
+/home/aldentra/preyekt/FasterX/src/build-win/CMakeFiles/rebuild_cache.dir
