@@ -15,16 +15,16 @@
 #include <gtkmm/application.h>
 #include <iostream>
 
-int main(int argc, char* argv[]) {
-    auto app = Gtk::Application::create(argc, argv, "uz.quiz.masterpro");
+int main(int argc, char *argv[]) {
+  auto app = Gtk::Application::create(argc, argv, "uz.quiz.masterpro");
 
-    try {
-        MainWindow window;
-        return app->run(window);
-    } catch (const std::exception& e) {
-        std::cerr << "❌ Xato: " << e.what() << std::endl;
-        return 1;
-    }
+  try {
+    MainWindow window;
+    return app->run(window);
+  } catch (const std::exception &e) {
+    std::cerr << "❌ Xato: " << e.what() << std::endl;
+    return 1;
+  }
 }
 
 // ============================================================
@@ -92,15 +92,11 @@ if [ $DEPS -eq 1 ]; then
     echo "📦 Kerakli paketlar o'rnatilmoqda..."
     if command -v apt &>/dev/null; then
         sudo apt update
-        sudo apt install -y g++ cmake libgtkmm-3.0-dev libsqlite3-dev pkg-config make
-    elif command -v dnf &>/dev/null; then
-        sudo dnf install -y gcc-c++ cmake gtkmm30-devel sqlite-devel pkgconfig make
-    elif command -v pacman &>/dev/null; then
-        sudo pacman -S --needed gcc cmake gtkmm3 sqlite pkgconf make
-    else
-        echo "⚠️  Paket menejeri aniqlanmadi. Qo'lda o'rnating."
-    fi
-fi
+        sudo apt install -y g++ cmake libgtkmm-3.0-dev libsqlite3-dev pkg-config
+make elif command -v dnf &>/dev/null; then sudo dnf install -y gcc-c++ cmake
+gtkmm30-devel sqlite-devel pkgconfig make elif command -v pacman &>/dev/null;
+then sudo pacman -S --needed gcc cmake gtkmm3 sqlite pkgconf make else echo "⚠️
+Paket menejeri aniqlanmadi. Qo'lda o'rnating." fi fi
 
 if [ $CLEAN -eq 1 ] && [ -d build ]; then
     echo "🧹 Eski build tozalanmoqda..."
