@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-c797de9c5ec9eb53fbfba0367efa3a2f CMakeFiles/QuizMasterPro_autogen
-f2eebfe869ec4480ecb7fa6e5bbc9bef QuizMasterPro_autogen/timestamp
